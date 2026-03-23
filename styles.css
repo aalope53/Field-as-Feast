@@ -67,6 +67,38 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 	body {
 		font-family: Playfair Display;
+		margin: 0 auto;
+	}
+
+	header {
+		background-color: var(--midnight-blue);
+	}
+
+	header img {
+		margin: 0 auto;
+	}
+
+	h1 {
+		text-align: center;
+		font-size: 4rem;
+		color: var(--soft-white);
+	}
+
+	h2 { 
+		text-align: center;
+		font-size: 2rem; 
+	}
+
+	h3 {
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	nav {
+		text-align: center;
+		background-color: var(--champagne-gold);
+		font-family: Playfair Display;
+
 	}
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
