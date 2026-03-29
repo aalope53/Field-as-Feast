@@ -188,6 +188,7 @@ table {
 		padding: 15px;
 		border-radius: 15px;
 		color: var(--soft-white);
+		box-shadow: 1px 1px 5px var(--dark-charcoal); 
 	}
 
 	#offer p {
@@ -207,13 +208,28 @@ table {
 		border-bottom: 2px solid var(--champagne-gold);
 	}
 
-	#gallery div h2, div p {
+	#gallery div h2 {
 		padding-top: 5px;
 		text-align: left;
 		padding-bottom: 15px;
 	}
 
-	
+	#gallery div p {
+		text-align: left;
+		padding-bottom: 15px;
+	}
+
+	#gallery img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#gallery p {
+		text-align: center;
+		font-size: 16px;
+	}
+
+
 
 
 /* MEDIA QUERY (medium) */
