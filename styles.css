@@ -65,7 +65,11 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
-	body {
+	
+
+/* Body Styles*/
+	
+    body {
 		font-family: Playfair Display;
 		margin: 0 auto;
 	}
@@ -81,7 +85,7 @@ table {
 		font-size: 1.5rem;
 	}
 
-    /*Header Styles */
+    /* Header Styles */
 
 	header {
 		background-color: var(--midnight-blue);
@@ -108,7 +112,7 @@ table {
 		font-style: italic;
 	}
    
-	/*Navigations Styles */
+	/* Navigations Styles */
     
     nav {
 		text-align: center;
@@ -132,9 +136,84 @@ table {
 		font-size: 20px;
 	}
 
-	/*Body Styles*/
 
+	/* Intro Styles */
 
+	#intro {
+		border-bottom: 2px solid var(--champagne-gold);
+		padding: 18px;
+     }
+	
+	
+	#intro h2 {
+		padding-top: 35px; 
+		text-align: left;
+		padding-bottom: 10px;
+		color: var(--midnight-blue);
+		font-weight: 450;
+	}
+
+	#intro p {
+		font-size: 16px;
+		text-align: left;
+		padding-bottom: 5px;
+		color: var(--dark-charcoal);
+	}
+
+	/* Offerings Styles */
+
+	#offer {
+		padding: 9px;
+		border-bottom: 2px solid var(--champagne-gold);
+	}
+
+	#offer h2 {
+		padding-top: 5px;
+	}
+
+    #offer h2, h3, p {
+		text-align: left;
+	}
+
+	#offer h3 {
+		font-size: 25px; 
+		padding-bottom: 10px;
+		font-weight: bold;
+	}
+	
+	
+	#offer div {
+		background-color: var(--olive-green);
+		margin: 15px;
+		padding: 15px;
+		border-radius: 15px;
+		color: var(--soft-white);
+	}
+
+	#offer p {
+		line-height: 1.2;
+	}
+
+	#offer ul {
+		line-height: 1.2;
+		list-style-type: circle;
+		padding-left: 20px;
+	}
+		
+	/* Gallery Styles */
+
+	#gallery {
+		padding: 9px;
+		border-bottom: 2px solid var(--champagne-gold);
+	}
+
+	#gallery div h2, div p {
+		padding-top: 5px;
+		text-align: left;
+		padding-bottom: 15px;
+	}
+
+	
 
 
 /* MEDIA QUERY (medium) */
