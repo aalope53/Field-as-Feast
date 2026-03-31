@@ -203,33 +203,81 @@ table {
 		
 	/* Gallery Styles */
 
+	#galleryintro h2 {
+		text-align: left;
+
+	}
+
+	#galleryintro h2, #galleryintro p {
+		margin: 12px;
+	}
+
 	#gallery {
-		padding: 9px;
+		padding: 2px;
 		border-bottom: 2px solid var(--champagne-gold);
-	}
-
-	#gallery div h2 {
-		padding-top: 5px;
-		text-align: left;
-		padding-bottom: 15px;
-	}
-
-	#gallery div p {
-		text-align: left;
-		padding-bottom: 15px;
 	}
 
 	#gallery img {
 		display: block;
 		margin: 0 auto;
+		border-radius: 15px 15px 0px 0px;
+
 	}
 
 	#gallery p {
 		text-align: center;
-		font-size: 16px;
+		font-size: 12px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		font-style: italic;	
+		margin-left: 28px;
+		margin-right: 28px;
+		margin-bottom: 12px;
+		border-radius: 0px 0px 5px 5px;
+		box-shadow: 2px 3px 6px -3px var(--dark-charcoal);
 	}
 
+	#gallery button {
+		display: block;
+		margin: 0 auto;
+		background-color: var(--olive-green);
+		border: none; 
+		font-weight: bold; 
+		padding: 13px;
+		width: 85%;
+		border-radius: 5px;
+		color: var(--soft-white);	
+		font-family: Playfair Display;
+	}
 
+	/* Footer Styles */
+
+	footer {
+		background-color: var(--midnight-blue);
+		padding: 70px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	footer small {
+		color: var(--soft-white);	
+	}
+
+	footer a {
+		text-decoration: none;
+		color: var(--champagne-gold);
+		font-weight: bold;
+	}
+
+	footer div {
+		padding-top: 80px;
+
+	}
+
+	#Fieldlink {
+		padding-top: 7px;
+
+	}
 
 
 /* MEDIA QUERY (medium) */
