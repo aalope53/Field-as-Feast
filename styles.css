@@ -281,5 +281,31 @@ table {
 
 
 /* MEDIA QUERY (medium) */
+	@media screen and (min-width: 600px) {
+		#intro {
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+
+		#offer {
+			margin-left: 30px;
+			margin-right: 30px;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			
+			
+		}
+
+		.bottom {
+			grid-column: 1 / span 2;
+
+		}
+
+		#offer div {
+			display: grid;
+		}
+
+	}
+
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
