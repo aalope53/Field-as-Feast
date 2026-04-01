@@ -182,7 +182,7 @@ table {
 	}
 	
 	
-	#offer div {
+	#offer section {
 		background-color: var(--olive-green);
 		margin: 15px;
 		padding: 15px;
@@ -282,30 +282,70 @@ table {
 
 /* MEDIA QUERY (medium) */
 	@media screen and (min-width: 600px) {
-		#intro {
-			margin-left: 30px;
-			margin-right: 30px;
-		}
+	#intro {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
 
-		#offer {
-			margin-left: 30px;
-			margin-right: 30px;
-			display: grid;
-			grid-template-columns: 1fr 1fr;
-			
-			
-		}
+	#offer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin-left: 30px;
+		margin-right: 30px;
+		
+	}
 
-		.bottom {
-			grid-column: 1 / span 2;
+	
+	#offer h2 {
+		grid-column: 1 / -1;
+		margin-left: 10px;
+	}
 
-		}
+	
+	#lastbox {
+		grid-column: 1 / -1;
+	}
 
-		#offer div {
-			display: grid;
-		}
+	#galleryintro {
+		margin-left: 30px;
+		margin-right: 30px;
 
 	}
 
+	#gallery {
+		display: grid;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	#gallery img, #gallery p{
+		display: grid;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#gallery img {
+		width: 250px;
+		height: 150px;
+		
+	}
+
+	#gallery p {
+		width: 250px;
+		height: 15px;
+	}
+
+
+
+
+
+}
+
 /* MEDIA QUERY (large) */
+@media screen and (min-width: 900px) {
+
+
+	
+}
+
 /* MEDIA QUERY (xl) */
