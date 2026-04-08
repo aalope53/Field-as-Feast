@@ -69,7 +69,13 @@ table {
 
 /* Body Styles*/
 	
-    body {
+	header img {
+		width: 150px;
+	}
+    
+
+
+	body {
 		font-family: Playfair Display;
 		margin: 0 auto;
 	}
@@ -288,8 +294,8 @@ table {
 /* MEDIA QUERY (medium) */
 	@media screen and (min-width: 600px) {
 	
-	
-	
+
+
 	#intro {
 		margin-left: 30px;
 		margin-right: 30px;
@@ -378,13 +384,40 @@ table {
 		}
 
 	#gallery p {
-		
 		font-size: 13px;
-
-
 	}
 
 
 }
 
 /* MEDIA QUERY (xl) */
+@media screen and (min-width: 1200px) {
+
+	#intro, #offer, #galleryintro, #gallery {
+		margin-left: 120px;
+		margin-right: 120px;
+	}
+
+	#gallery img {
+			width: 170px;
+			height: 100px;
+	}
+
+	#gallery p {
+			width: 150px;
+			height: 25px;
+			padding: 10px;
+
+	}
+
+
+	#gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto;
+		padding-bottom: 10px;
+	} 
+
+	
+	
+}
