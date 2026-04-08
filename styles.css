@@ -287,6 +287,9 @@ table {
 
 /* MEDIA QUERY (medium) */
 	@media screen and (min-width: 600px) {
+	
+	
+	
 	#intro {
 		margin-left: 30px;
 		margin-right: 30px;
@@ -374,7 +377,12 @@ table {
 			
 		}
 
+	#gallery p {
+		
+		font-size: 13px;
 
+
+	}
 
 
 }
