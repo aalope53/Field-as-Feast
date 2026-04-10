@@ -301,12 +301,6 @@ table {
 
 
 
-	
-
-
-
-
-
 /* MEDIA QUERY (medium) */
 	@media screen and (min-width: 600px) {
 	
@@ -425,7 +419,6 @@ table {
 			padding: 10px;
 
 	}
-
 
 	#gallery {
 		display: grid;
